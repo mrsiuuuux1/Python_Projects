@@ -2,7 +2,7 @@ answer = 9
 No_Of_Attempts = 1
 
 while No_Of_Attempts <= 3:
-    guess = int(input("Enter a number within the range (1-15): "))  # Get user input inside the loop
+    guess = int(input("Enter a number within the range (1-15): "))  
     if guess == answer:
         print("You Won")
         break
